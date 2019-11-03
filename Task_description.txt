@@ -1,0 +1,39 @@
+Dataset - iconpro_mn
+
+Mixed distribution whose components are normal distributions (gaussian distributions). These components are also referred to as instantaneous distribution for the time process.
+
+There are two different labels
+
+"Type" :-? three different types of mixed distribution based on change of parameter of instantaneous distribution
+
+______________________________________
+TYPE  | change in Mean | change in Std
+______________________________________
+  0   |      No        |      Yes
+______________________________________
+  1   |      Yes       |      No      
+______________________________________
+  2   |      Yes       |      Yes
+______________________________________
+
+"Num components" :-> Number of normal distribution which constitute the whole mixed distribution
+For examples a Mixed distribution can be a combination N different normal distribution. Here the N values is in range [2,20]
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Dataset - iconpro_mnrw
+
+Mixed distribution whose components are either :
+1. normal distributions
+2. rayleigh distribution
+3. weibull distribution
+
+
+There are three different labels : Type, Num components, Underlying distribution
+
+"Underlying distribution" : The type of instantaneous distribution which is either normal, rayleigh or weibull
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+
