@@ -37,7 +37,7 @@ y1_trainpre = data1_list['components']
 
 #test data
 data2 = np.load('normal_test.npy', allow_pickle=True)
-data2_list = data1.tolist()
+data2_list = data2.tolist()
 x_test = data2_list['data_matrix']
 # =============================================================================
 # len_min = 2000
